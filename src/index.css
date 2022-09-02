@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Righteous', cursive;
+  color: rgb(241, 241, 241);
+  background-image: url(../src/store/wallpapertip_drive-movie-wallpaper_1821410.jpg);
+  
+}
+
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(242, 15, 15);
+}
+
+
+
+h1, h2 {
+  text-align: center;
+}
+

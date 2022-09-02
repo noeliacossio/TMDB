@@ -1,0 +1,82 @@
+
+.container {
+	background-color: #30224a;
+	margin: 10%;
+	width: 58%;
+	height: 78%;
+	border-radius: 1.2rem;
+}
+
+.container-form {
+	height: 56%;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+}
+
+.input-form{
+	width: 60%;
+	height: 50px;
+	background: #e0dede;
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.button-style{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #9977d7;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #3e09a0e5;
+}
+.login{
+	height: 460px;
+	color: #9977d7;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #30224a;
+	transform: scale(.6);
+}
+
+/******secondary navbar components*******/
+
+.page-title {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	font-size: 3vw;
+	padding: 4px;
+	background-color: #30224acf;
+}
+
+.content-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+
+  @media (max-width: 980px) {
+    .page-title {
+        font-size: 6vw;
+    }
+  }

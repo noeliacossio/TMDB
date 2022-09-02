@@ -1,0 +1,77 @@
+.box {
+  width: 90%;
+  height: 80%;
+  background-color: #42395a;
+  border: 1px solid #2a2834;
+  border-radius: 1.2rem;
+  color: aliceblue;
+  padding: 1 1 3;
+}
+
+
+.detailsContainer {
+   display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    background-image: url(../store/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: relative;  
+    margin: 5%;
+    padding: 80px;
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    justify-content: center;
+  }
+  
+  .col {
+    max-width: 400px;
+    margin: auto;
+    height: auto;
+    width: 90%;
+  }
+  
+img {
+  border: groove 1.2rem rgba(220, 24, 24, 0.67);
+}
+
+  .movieImage {
+    border-radius: 20px;
+
+  }
+  
+  .movieDetails {
+    font-size: 2rem;
+  }
+
+  
+  .firstItem {
+    margin-top: 0;
+  }
+
+
+  @media screen and (max-width: 1240px) {
+    .detailsContainer {
+     grid-template-columns: 1fr;
+    }
+ 
+    .col {
+     width: 80%;
+     padding: 2rem;
+     margin: 0 auto;
+    } 
+
+    img {
+      border: none;
+    }
+  
+   }
+   
+   @media screen and (max-width: 1024px) {
+  
+    .movieDetails{
+      font-size: 1.5rem;
+    }
+  }

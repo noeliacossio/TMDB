@@ -1,0 +1,23 @@
+.header {
+    margin-top: 5rem;
+    width: 90%;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 80%;
+    padding-bottom: 15px;
+    z-index: 100;
+}
+
+.content {
+    padding-top: 4rem;
+    background-image: url(../store/wallpapertip_square-wallpaper_106574.jpg);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }

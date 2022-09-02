@@ -1,0 +1,97 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 90%;
+    height: 80%;
+    background-color: #42395a;
+    border: 1px solid #2a2834;
+    border-radius: 1.2rem;
+    color: aliceblue;
+    padding: 1 1 3;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.modal-landscape {
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.modal-portrait{
+  display: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.modal-about {
+    padding: 10px;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+
+.modal-title {
+    height: 12%;
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+    padding-bottom: 1rem;
+    align-self: center;
+}
+
+.modal-description {
+    display: flex;
+  height: 40%;
+  overflow-y: scroll;
+  padding: 15px;
+  border-radius: 20px;
+  scrollbar-width: thin;
+  /* box-shadow: inset 0 0 5px #000000; */
+  text-align: justify;
+}
+
+
+@media (min-width: 835px) {
+    .modal-landscape {
+      display: none;
+    }
+    .modal-portrait {
+      display: flex;
+      width: 38%;
+    }
+    .modal-container {
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    .modal-about {
+      width: 58%;
+      padding: 0;
+      height: 100%;
+    }
+    .modal-title {
+      font-size: 3.5vw;
+    }
+    .modal-description {
+      font-size: 22px;
+    }
+  }

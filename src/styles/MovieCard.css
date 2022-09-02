@@ -1,0 +1,40 @@
+.movieContainer {
+  background-image: url(../store/pngwing.com.png);
+  background-color: black;
+  
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  padding: 10px;
+    /* grid-template-columns: 1fr 1fr;
+    gap: 2rem; */
+
+}
+
+.movieCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .movieCard:hover {
+    opacity: 0.8;
+  }
+  
+  .movieImage {
+    border-radius: 10px;
+   
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 5px black;
+    background-color: azure;
+  }
+  
+  @media (max-width: 560px) {
+    .movieImage {
+      width: 90%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,20 @@
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    
+    padding: 40px;
+    justify-content: center;
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  @media (max-width: 560px) {
+    .moviesGrid {
+      grid-template-columns: 100%;
+    }
+  }

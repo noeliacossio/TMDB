@@ -1,0 +1,40 @@
+.media-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.media-container:hover {
+    background-color: aliceblue;
+    color: red;
+}
+
+.poster-container {
+    border-radius: 10px;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.subtitle-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .media-container {
+        width: 45%;
+    }
+}
